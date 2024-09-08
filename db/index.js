@@ -1,5 +1,4 @@
 const mysql = require('mysql2');
-
 // 创建数据库连接
 const db = mysql.createPool({
     host: 'localhost',
